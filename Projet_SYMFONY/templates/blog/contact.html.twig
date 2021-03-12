@@ -1,0 +1,21 @@
+{% extends 'base.html.twig'%}
+
+{% block body %}
+<div class="jumbotron content mt-4">
+    <h1>Contactez-nous !</h1>
+    <form class="mt-4">
+    <fieldset>
+        <div class="form-group">
+        <label for="exampleInputEmail1">Adresse email</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+        <small id="emailHelp" class="form-text text-muted">Nous ne vous enverrons jamais d'email.</small>
+        </div>
+        <div class="form-group">
+        <label for="exampleTextarea">Votre message</label>
+        <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </fieldset>
+    </form>
+</div>
+{% endblock %}

@@ -1,0 +1,32 @@
+/* Sticky Footer Classes */
+
+html,
+body {
+    height: 100%;
+}
+
+#page-content {
+    flex: 1 0 auto;
+}
+
+#sticky-footer {
+    flex-shrink: none;
+}
+
+
+/* Autres classes pour le style de page*/
+
+body {
+    background: #007bff;
+    background: linear-gradient(to right, #0062E6, #33AEFF);
+}
+
+img {
+    width: 50%;
+    position: relative;
+    top: 20px;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+}

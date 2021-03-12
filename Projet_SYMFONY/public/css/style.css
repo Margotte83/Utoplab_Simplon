@@ -1,0 +1,36 @@
+.image {
+    display: block;
+    margin: auto auto;
+}
+
+.equipe {
+    display: block;
+    text-align: center;
+}
+
+.mt-4 {
+    margin: 30px 30px;
+}
+
+.form-group {
+    width: 50%;
+    margin: 0 auto;
+}
+
+button.btn.btn-primary {
+    display: block;
+    margin: auto auto;
+    margin-top: 30px;
+}
+
+a.btn.btn-primary {
+    display: block;
+    margin: auto auto;
+    width: 100px;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+    margin-bottom: 5px;
+}

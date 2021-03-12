@@ -1,0 +1,18 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello MignoPote!{% endblock %}
+
+{% block body %}
+<section class="articles">
+  {% for article in 1..1  %}
+     <article class="jumbotron mt-4">
+      <h2>Utoplab la Ciotat vous présente...</h2>
+      <div class="content mt-4" >
+        <img src="{{ asset('img/logo.jpg')}}" alt="logo utoplab" class="image"><br><br>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut viverra tellus eget nisi blandit, quis volutpat elit pellentesque. Nam commodo lacinia sem, eu pulvinar arcu rhoncus et. Cras feugiat facilisis ligula id cursus. Phasellus at vehicula metus, sed mollis leo. Phasellus sed justo ex. Vestibulum non metus nisl. Quisque ac efficitur purus, nec lacinia metus. Nunc id risus sollicitudin, consectetur enim a, efficitur massa. Sed hendrerit, risus sit amet gravida ornare, libero felis commodo velit, in sodales dui turpis ac purus. Pellentesque id metus eget lorem fermentum congue.</p>
+        <a href="{{path('blog_show')}}" class="btn btn-primary">Lire la suite</a>
+      </div>
+    </article>
+  {% endfor %}
+</section>
+{% endblock %}

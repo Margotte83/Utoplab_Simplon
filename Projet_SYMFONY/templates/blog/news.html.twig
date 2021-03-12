@@ -1,0 +1,12 @@
+{% extends 'base.html.twig'%}
+{% block body %}
+<div class="jumbotron content mt-4">
+    <h2>La promotion 2019-2020 Utoplab</h2>
+    <br><br>
+    {% for images in 1..22 %}
+    <img src="http://placehold.it/100x100" alt="les utopotes">
+    {% endfor %}
+    <br><br>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut velit non sem condimentum viverra. Fusce semper ultricies neque, quis euismod dolor tempus non. Quisque leo mi, auctor ac convallis sit amet, vulputate in neque. Phasellus sodales neque in luctus vulputate. Etiam cursus molestie libero in tincidunt. Suspendisse eu ultrices eros. Phasellus tincidunt, dolor ultrices efficitur sodales, nisl ante semper mi, at imperdiet nisl eros a enim. Phasellus mauris ex, congue eget lacinia vel, molestie malesuada ex. Phasellus tempus sem tempus pharetra finibus. Nunc volutpat pulvinar risus ac interdum. Etiam vel auctor turpis. Etiam vitae vulputate purus, et eleifend lacus. Aliquam suscipit elit lacus, in tincidunt lacus commodo id. </p>
+</div>
+{% endblock %}

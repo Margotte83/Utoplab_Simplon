@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!--Favicon-->
+        <link rel="icon" href="img/favicon.ico" />
+
+        <title>My csv page</title>
+        <!--BULMA-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css" />
+    </head>
+    <body>
+        <section class="section">
+            <div class="container">
+                <h1 class="title">
+                    Hello World
+                </h1>
+                <p class="subtitle">My CSV website with <strong>Bulma</strong>!</p>
+                <h3>Choose a csv file</h3>
+                <form method="POST" action="csv.php" enctype="multipart/form-data">
+                    <!-- On limite le fichier à 100Ko -->
+                    <input type="hidden" name="MAX_FILE_SIZE" value="10000" />
+                    <div class="file">
+                        <label class="file-label">
+                            <input class="file-input" type="file" accept=".csv" name="userfile" value="table" />
+                            <span class="file-cta">
+                                <span class="file-icon">
+                                    <i class="fas fa-upload"></i>
+                                </span>
+                                <span class="file-label">
+                                    Choose a file…
+                                </span>
+                            </span>
+                        </label>
+                    </div>
+                    <!--<input class="file" type="file" accept=".csv" name="userfile" value="table" />-->
+                    <br />
+                    <br />
+                    <div class="control">
+                        <input class="input is-focused" type="submit" name="valider" value="Import" style="width: auto;" />
+                    </div>
+
+                    <!--<input class="submit" type="submit" name="valider" value="Import" />-->
+                    <figure class="image is-128x128">
+                        <img src="img/csv.jpg" alt="file csv" />
+                    </figure>
+                </form>
+            </div>
+        </section>
+    </body>
+</html>

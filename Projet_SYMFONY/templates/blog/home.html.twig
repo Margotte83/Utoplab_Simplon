@@ -1,0 +1,16 @@
+{% extends 'base.html.twig'%}
+
+{% block stylesheets %}
+<embed src="mus/Banana.mp3" autostart="true" loop="false" hidden="true"></embed>
+{% endblock %}
+
+{% block body %}
+<div class="jumbotron content mt-4">
+    <h1> Bienvenue! Welcome!</h1>
+    <br><br>
+    <img src="{{ asset('/img/mignopotes.png') }}" alt="les mignopotes" class="image">
+    <br><br>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet erat dolor, ut maximus mauris mattis id. Curabitur consequat lectus sed mi dapibus, ut tincidunt erat consequat. Etiam porttitor posuere ornare. Pellentesque rhoncus lacus sed nunc pretium, id maximus neque fermentum. Nam augue sem, hendrerit pretium sollicitudin vel, vestibulum id eros. In id porta leo, vitae laoreet mauris. Phasellus lorem nunc, ullamcorper vel rhoncus ac, accumsan eu tellus. Vestibulum faucibus magna tempor risus maximus, ac aliquet ligula mattis. Donec sit amet elit eget eros mattis dapibus. In fringilla, mi id laoreet fringilla, augue est gravida nulla, quis facilisis elit orci vel magna. </p>
+    <p>Aliquam rhoncus tortor lectus, ut dignissim est molestie nec. Sed iaculis accumsan ligula a ultrices. Cras dictum sagittis auctor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus rhoncus erat ante, eu hendrerit arcu fermentum a. Nunc eget odio pharetra, luctus dolor id, molestie orci. Praesent rutrum arcu tellus, vel commodo lorem facilisis ut. Phasellus odio sapien, tincidunt quis magna ac, placerat rutrum felis. </p>
+</div>
+{% endblock %}

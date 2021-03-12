@@ -1,0 +1,4 @@
+Coucou les amis du code!
+J'aime bien cet exercice Git.
+Les joies du code :-)
+

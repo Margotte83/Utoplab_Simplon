@@ -1,0 +1,277 @@
+<!DOCTYPE html >
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <!--META-->
+    <meta name="viewport" content="width=device-width,user-scalable=no, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--META SEO-->
+    <!--<meta name="description" content="La description du site! PRIMORDIAL:mettre les bons mots clés!">-->
+    <meta name="mot de passe" content="webdesign, webdeveloppeur, développeur front-end, Webethique,motion design">
+    <!--CSS-->
+    <link rel="stylesheet" href="src/css/style.css">
+    <!--BULMA!-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+    <!--BOOSTRAP!-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--FAVICON-->
+    <link rel="icon" href="src/img/favicon.ico" />
+    <!--FONTS-->
+    <link href="https://fonts.googleapis.com/css?family=Heebo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC:700|Lobster&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6681f2c2a6.js" crossorigin="anonymous"></script>
+    <title>Marjorie's page</title>
+</head>
+
+<body>
+    <!--EN TETE-->
+    <div class="block">
+        <header class="header">
+            <a href="index2.html" class="header-logo">Marjorie</a>
+            <i class="far fa-heart icon"></i>
+            <nav class="header-menu">
+                <a href="#a_propos">&Agrave; propos</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="src/img/MarjorieN_CV.pdf" download>Mon CV</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
+    </div>
+    <!--BANNIERE-->
+    <div class="block">
+        <div class="banner">
+            <img src="src/img/webdesign.jpg" alt="photo design avec crayons et ordinateur " class="banner-image">
+            <div class="banner-content">
+                <h1 class="title is-1">Bienvenue</h1>
+                <h2 class="subtitle">Découvrez mon portfolio et mon univers</h2>
+                <button class="button is-link" id="open_modal">Cliquez !</button>
+            </div>
+        </div>
+        <!--MODAL-->
+        <div class="modal" id="modal_to_open">
+            <div class="modal-background"></div>
+            <div class="modal-content">
+                <figure class="image 128x128">
+                    <img class="is-rounded" src="src/img/myAvatar.png" alt="Avatar Marjorie">
+                </figure>
+            </div>
+            <button class="modal-close is-large" aria-label="close" id="close_modal"></button>
+        </div>
+        <!--SECTION-->
+        <div class="block">
+            <section id="a_propos"></section>
+        </div>
+        <h2 class="Subtitle">&Agrave; propos</h2>
+        <br>
+        <br>
+        <div class="container about">
+            <div class="columns ">
+                <div class="column about-single-element">
+                    <i class="fas fa-code icon"></i>
+                    <br>
+                    <h3 class="column about-presentation"><strong>Code</strong></h3>
+                    <p>Fort intérêt pour l'environnement WordPress et le Front-End/CSS. Mais a su développer des comptétences dans d'autres langages:</p>
+                    <br>
+                    <!-- Les icônes !-->
+                    <div class="columns is-variable is-1">
+                        <div class="column">
+                            <i class="fab fa-html5 icon"></i>
+                        </div>
+                        <div class="column">
+                            <i class="fab fa-css3-alt icon"></i>
+                        </div>
+                        <div class="column">
+                            <i class="fab fa-js icon"></i>
+                        </div>
+                        <div class="column">
+                            <i class="fab fa-php icon"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="column about-single-element">
+                    <i class="fas fa-universal-access icon"></i>
+                    <br>
+                    <h3 class="column about-presentation"><strong>&Eacute;thique</strong></h3>
+                    <p>Désire réaliser des sites internet éthiques dont l'objectif serait une gestion à la portée de tous.
+                        <br> Une conception à la recherche des meilleures pratiques tout en respectant l'utilisateur et l'internaute par l'application des standards du web. </p>
+                </div>
+                <div class="column about-single-element">
+                    <i class="fas fa-palette icon"></i>
+                    <br>
+                    <h3 class="column about-presentation"><strong>Design</strong></h3>
+                    <p>Douée de créativité et d’artisanat, intéressée par les arts et le web, aimerait réaliser des animations graphiques dans la conception du mouvement.
+                        <br> Dans le style: Motion Design.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Portfolio-->
+    <br>
+    <div class="block">
+        <section id="portfolio"></section>
+        <h2 class="Subtitle">Mon portfolio</h2>
+        <br>
+        <br>
+        <div class="container">
+            <div class="tile is-ancestor">
+                <div class="tile is-vertical is-8">
+                    <div class="tile">
+                        <div class="tile is-parent is-vertical">
+                            <article class="tile is-child notification is-primary">
+                                <p class="title">Profil CodePen</p>
+                                <form>
+                                    <button class="button is-large" type="submit" formaction="https://codepen.io/marjorie-ngoupende">
+                                        <span class="icon is-medium">
+                                                <i class="fab fa-codepen"></i>
+                                            </span>
+                                        <span>Codepen</span>
+                                    </button>
+                                </form>
+                            </article>
+                            <article class="tile is-child notification is-warning">
+                                <p class="title">Mon Github</p>
+                                <form>
+                                    <button class="button is-large" type="submit" formaction="https://github.com/Margotte83">
+                                        <span class="icon is-medium">
+                                                <i class="fab fa-github"></i>
+                                            </span>
+                                        <span>GitHub</span>
+                                    </button>
+                                </form>
+                            </article>
+                        </div>
+                        <div class="tile is-parent">
+                            <article class="tile is-child notification is-info">
+                                <p class="title">Un Web Eco-Responsable</p>
+                                <p class="subtitle">Pour un Slow Web...</p>
+
+                                <figure class="image is-128x128">
+                                    <a href="https://www.greenit.fr/"><img id="greenit_image" src="src/img/greenit.jpeg" alt="logo green it"></a>
+                                </figure>
+
+                            </article>
+                        </div>
+                    </div>
+                    <div class="tile is-parent">
+                        <article class="tile is-child notification is-danger">
+                            <p class="title">Galerie</p>
+                            <p class="subtitle">Logos & graphisme</p>
+
+                            <!--Galerie images!-->
+                            <div class="columns is-variable is-1">
+                                <div class="column">
+                                    <figure class="image is-96x96">
+                                        <img src="src/img/arbre4.jpeg" alt="arbre géométrique orange">
+                                    </figure>
+                                </div>
+                                <div class="column">
+                                    <figure class="image is-96x96">
+                                        <img src="src/img/arbre6.jpeg" alt="arbre géométrique vert">
+                                    </figure>
+                                </div>
+                                <div class="column">
+                                    <figure class="image is-96x96">
+                                        <img src="src/img/cerisier.jpeg" alt="cerisier boules bleues">
+                                    </figure>
+                                </div>
+                                <div class="column">
+                                    <figure class="image is-96x96">
+                                        <img src="src/img/sushipower.jpeg" alt="personnage sushi kawaï">
+                                    </figure>
+                                </div>
+                                <div class="column">
+                                    <figure class="image is-96x96">
+                                        <img src="src/img/corpscan.jpeg" alt="logo mains bleues portent personnage">
+                                    </figure>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <!--Montage vidéo!-->
+                <div class="tile is-parent">
+                    <article class="tile is-child notification is-success">
+                        <div class="content">
+                            <p class="title">Animation</p>
+                            <p class="subtitle">Vidéo réalisée...</p>
+                            <br>
+                            <br>
+                            <div class="content">
+                                <figure class="image is-16by9">
+                                    <iframe class="has-ratio" width="560" height="315" src="https://www.youtube.com/embed/mArlI3MbqLQ" allow="a" allowfullscreen></iframe>
+                                </figure>
+                                <ul>
+                                    <li>Création d'une infographie vidéo</li>
+                                    <li>Création vidéo youtube</li>
+                                    <li>Création vidéo de dessin animé</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Contact-->
+    <div class="block">
+        <footer class="footer">
+            <section id="contact">
+                <h2 class="Subtitle">Contactez-moi</h2>
+                <div class="footer-contact-form">
+                    <div class="field">
+                        <label class="label">Nom</label>
+                        <div class="control">
+                            <input id="name" class="input" type="text" placeholder="Votre nom" name="name">
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label class="label">Prénom</label>
+                        <div class="control">
+                            <input id="firstname" class="input" type="text" placeholder="Votre prénom" name="firstname">
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label class="label">e-mail</label>
+                        <div class="control">
+                            <input id="email" class="input" type="text" placeholder="e-mail" name="email">
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label class="label">Message</label>
+                        <div class="control">
+                            <textarea id="message" class="textarea" placeholder="Votre message" name="message"></textarea>
+                            <br>
+                            <button class="button is-link" id="send_email">Envoyer !</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-informations">
+                    <p>Région PACA</p>
+                    <p>Suivez-moi sur les réseaux sociaux</p>
+                    <ul>
+                        <li><a href="https://www.facebook.com/marjorie.Eva.ngoupende"><i class="fab fa-facebook"></i></a></li>
+                        <li><a href="https://twitter.com/MarjorieN83"><i class="fab fa-twitter-square"></i></a></li>
+                        <li><a href="https://www.instagram.com/marjoriengoupende/?hl=fr"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="https://www.pinterest.fr/marjoriengoupende/"><i class="fab fa-pinterest"></i></a></li>
+                    </ul>
+                </div>
+                <!--barre d’avertissement sur l’utilisation des cookies-->
+                <!--<div class="cookie-alert">
+<p>En poursuivant votre navigation sur ce site, vous acceptez l'utilisation de cookies.</p><br><a href="page1.php">OK</a>
+
+</div>!-->
+            </section>
+        </footer>
+    </div>
+    <!--LIBRAIRIES-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <!--JavaScript-->
+    <script src="src/js/main.js"></script>
+</body>
+
+</html>
