@@ -1,7 +1,8 @@
-# JavaScript Project
+# The training charter
 
-Here it is a project that aims to **randomly** display an student or display everyone in JavaScript.
+Here is the charter of our promotion in PHP Langage.
 
-- Storage of students** names in a JavaScript array
-- JavaScript function which randomly generates a student
-- JavaScript function which **display all students
+- Data base
+- Insertion into DB.
+- Sign the charter
+- Display of signatories
