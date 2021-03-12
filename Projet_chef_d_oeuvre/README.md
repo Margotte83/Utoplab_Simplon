@@ -12,7 +12,7 @@ Show all site users.
 Visit a profile.
 Referencing the site (SEO).
 
-##Open Graph protocol
+## Open Graph protocol
 -----------------------------------------------------------------------------------------------------------------------
 PHP/MYSQL
 JavaScript/JQuery
