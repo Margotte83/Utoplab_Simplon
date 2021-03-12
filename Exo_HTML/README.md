@@ -1,4 +1,5 @@
 # To Make a Burger in HTML 
+![1 Qp-88abCifvemfuDX9dj4A](https://user-images.githubusercontent.com/55487019/110977226-338f6000-8362-11eb-8b93-8644afe4e01e.png)
 
 First we need to list the components of the Burger:
 
